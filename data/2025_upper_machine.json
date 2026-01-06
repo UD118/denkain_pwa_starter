@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "year": "2025",
+    "term": "upper",
+    "subject": "machine",
+    "label": "機械"
+  },
+  "questions": [
+    {
+      "id": "2025_upper_machine_q1",
+      "no": "1",
+      "image": "./assets/2025/upper/machine/q1.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q2",
+      "no": "2",
+      "image": "./assets/2025/upper/machine/q2.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q3",
+      "no": "3",
+      "image": "./assets/2025/upper/machine/q3.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q4",
+      "no": "4",
+      "image": "./assets/2025/upper/machine/q4.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q5",
+      "no": "5",
+      "image": "./assets/2025/upper/machine/q5.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q6",
+      "no": "6",
+      "image": "./assets/2025/upper/machine/q6.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q7",
+      "no": "7",
+      "image": "./assets/2025/upper/machine/q7.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q8",
+      "no": "8",
+      "image": "./assets/2025/upper/machine/q8.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q9",
+      "no": "9",
+      "image": "./assets/2025/upper/machine/q9.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q10",
+      "no": "10",
+      "image": "./assets/2025/upper/machine/q10.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q11",
+      "no": "11",
+      "image": "./assets/2025/upper/machine/q11.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q12",
+      "no": "12",
+      "image": "./assets/2025/upper/machine/q12.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q13",
+      "no": "13",
+      "image": "./assets/2025/upper/machine/q13.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q14",
+      "no": "14",
+      "image": "./assets/2025/upper/machine/q14.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q15a",
+      "no": "15a",
+      "image": "./assets/2025/upper/machine/q15a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q15b",
+      "no": "15b",
+      "image": "./assets/2025/upper/machine/q15b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q16a",
+      "no": "16a",
+      "image": "./assets/2025/upper/machine/q16a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q16b",
+      "no": "16b",
+      "image": "./assets/2025/upper/machine/q16b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q17a",
+      "no": "17a",
+      "image": "./assets/2025/upper/machine/q17a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q17b",
+      "no": "17b",
+      "image": "./assets/2025/upper/machine/q17b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q18a",
+      "no": "18a",
+      "image": "./assets/2025/upper/machine/q18a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_machine_q18b",
+      "no": "18b",
+      "image": "./assets/2025/upper/machine/q18b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    }
+  ]
+}

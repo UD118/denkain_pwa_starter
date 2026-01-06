@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "year": "2025",
+    "term": "upper",
+    "subject": "theory",
+    "label": "理論"
+  },
+  "questions": [
+    {
+      "id": "2025_upper_theory_q1",
+      "no": "1",
+      "image": "./assets/2025/upper/theory/q1.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q2",
+      "no": "2",
+      "image": "./assets/2025/upper/theory/q2.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q3",
+      "no": "3",
+      "image": "./assets/2025/upper/theory/q3.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q4",
+      "no": "4",
+      "image": "./assets/2025/upper/theory/q4.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q5",
+      "no": "5",
+      "image": "./assets/2025/upper/theory/q5.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q6",
+      "no": "6",
+      "image": "./assets/2025/upper/theory/q6.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q7",
+      "no": "7",
+      "image": "./assets/2025/upper/theory/q7.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q8",
+      "no": "8",
+      "image": "./assets/2025/upper/theory/q8.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q9",
+      "no": "9",
+      "image": "./assets/2025/upper/theory/q9.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q10",
+      "no": "10",
+      "image": "./assets/2025/upper/theory/q10.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q11",
+      "no": "11",
+      "image": "./assets/2025/upper/theory/q11.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q12",
+      "no": "12",
+      "image": "./assets/2025/upper/theory/q12.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q13",
+      "no": "13",
+      "image": "./assets/2025/upper/theory/q13.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q14",
+      "no": "14",
+      "image": "./assets/2025/upper/theory/q14.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q15a",
+      "no": "15a",
+      "image": "./assets/2025/upper/theory/q15a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q15b",
+      "no": "15b",
+      "image": "./assets/2025/upper/theory/q15b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q16a",
+      "no": "16a",
+      "image": "./assets/2025/upper/theory/q16a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q16b",
+      "no": "16b",
+      "image": "./assets/2025/upper/theory/q16b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q17a",
+      "no": "17a",
+      "image": "./assets/2025/upper/theory/q17a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q17b",
+      "no": "17b",
+      "image": "./assets/2025/upper/theory/q17b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q18a",
+      "no": "18a",
+      "image": "./assets/2025/upper/theory/q18a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_theory_q18b",
+      "no": "18b",
+      "image": "./assets/2025/upper/theory/q18b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    }
+  ]
+}

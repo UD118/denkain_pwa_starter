@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "year": "2025",
+    "term": "upper",
+    "subject": "power",
+    "label": "電力"
+  },
+  "questions": [
+    {
+      "id": "2025_upper_power_q1",
+      "no": "1",
+      "image": "./assets/2025/upper/power/q1.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q2",
+      "no": "2",
+      "image": "./assets/2025/upper/power/q2.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q3",
+      "no": "3",
+      "image": "./assets/2025/upper/power/q3.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q4",
+      "no": "4",
+      "image": "./assets/2025/upper/power/q4.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q5",
+      "no": "5",
+      "image": "./assets/2025/upper/power/q5.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q6",
+      "no": "6",
+      "image": "./assets/2025/upper/power/q6.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q7",
+      "no": "7",
+      "image": "./assets/2025/upper/power/q7.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q8",
+      "no": "8",
+      "image": "./assets/2025/upper/power/q8.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q9",
+      "no": "9",
+      "image": "./assets/2025/upper/power/q9.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q10",
+      "no": "10",
+      "image": "./assets/2025/upper/power/q10.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q11",
+      "no": "11",
+      "image": "./assets/2025/upper/power/q11.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q12",
+      "no": "12",
+      "image": "./assets/2025/upper/power/q12.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q13",
+      "no": "13",
+      "image": "./assets/2025/upper/power/q13.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q14",
+      "no": "14",
+      "image": "./assets/2025/upper/power/q14.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q15a",
+      "no": "15a",
+      "image": "./assets/2025/upper/power/q15a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q15b",
+      "no": "15b",
+      "image": "./assets/2025/upper/power/q15b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q16a",
+      "no": "16a",
+      "image": "./assets/2025/upper/power/q16a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q16b",
+      "no": "16b",
+      "image": "./assets/2025/upper/power/q16b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q17a",
+      "no": "17a",
+      "image": "./assets/2025/upper/power/q17a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_power_q17b",
+      "no": "17b",
+      "image": "./assets/2025/upper/power/q17b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    }
+  ]
+}

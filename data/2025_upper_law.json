@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "year": "2025",
+    "term": "upper",
+    "subject": "law",
+    "label": "法規"
+  },
+  "questions": [
+    {
+      "id": "2025_upper_law_q1",
+      "no": "1",
+      "image": "./assets/2025/upper/law/q1.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q2",
+      "no": "2",
+      "image": "./assets/2025/upper/law/q2.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q3",
+      "no": "3",
+      "image": "./assets/2025/upper/law/q3.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q4",
+      "no": "4",
+      "image": "./assets/2025/upper/law/q4.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q5",
+      "no": "5",
+      "image": "./assets/2025/upper/law/q5.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q6",
+      "no": "6",
+      "image": "./assets/2025/upper/law/q6.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q7",
+      "no": "7",
+      "image": "./assets/2025/upper/law/q7.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q8",
+      "no": "8",
+      "image": "./assets/2025/upper/law/q8.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "d",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q9",
+      "no": "9",
+      "image": "./assets/2025/upper/law/q9.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "a",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q10",
+      "no": "10",
+      "image": "./assets/2025/upper/law/q10.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q11a",
+      "no": "11a",
+      "image": "./assets/2025/upper/law/q11a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q11b",
+      "no": "11b",
+      "image": "./assets/2025/upper/law/q11b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "e",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q12a",
+      "no": "12a",
+      "image": "./assets/2025/upper/law/q12a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q12b",
+      "no": "12b",
+      "image": "./assets/2025/upper/law/q12b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q13a",
+      "no": "13a",
+      "image": "./assets/2025/upper/law/q13a.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "b",
+      "explain": ""
+    },
+    {
+      "id": "2025_upper_law_q13b",
+      "no": "13b",
+      "image": "./assets/2025/upper/law/q13b.png",
+      "text": "",
+      "choices": [
+        {
+          "id": "a",
+          "text": ""
+        },
+        {
+          "id": "b",
+          "text": ""
+        },
+        {
+          "id": "c",
+          "text": ""
+        },
+        {
+          "id": "d",
+          "text": ""
+        },
+        {
+          "id": "e",
+          "text": ""
+        }
+      ],
+      "answer": "c",
+      "explain": ""
+    }
+  ]
+}

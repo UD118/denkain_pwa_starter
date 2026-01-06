@@ -1,0 +1,35 @@
+{
+  "years": [
+    {
+      "year": "2025",
+      "terms": [
+        {
+          "term": "upper",
+          "label": "上期",
+          "subjects": [
+            {
+              "id": "theory",
+              "label": "理論",
+              "data": "./data/2025_upper_theory.json"
+            },
+            {
+              "id": "power",
+              "label": "電力",
+              "data": "./data/2025_upper_power.json"
+            },
+            {
+              "id": "machine",
+              "label": "機械",
+              "data": "./data/2025_upper_machine.json"
+            },
+            {
+              "id": "law",
+              "label": "法規",
+              "data": "./data/2025_upper_law.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
