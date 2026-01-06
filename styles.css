@@ -5,12 +5,13 @@
   --ink:#1c1f2a;
   --muted:#55607a;
 
-  --card: rgba(255,255,255,0.78);
+  --card: rgba(255,255,255,0.82);
   --line: rgba(20, 30, 60, 0.12);
 
   --pink:#ff4fa3;
   --purple:#7a5cff;
   --cyan:#00c2ff;
+
   --ok:#14c77b;
   --ng:#ff3b5c;
 
@@ -27,10 +28,10 @@ body{
   background:
     radial-gradient(circle at 12% 10%, rgba(255,79,163,.25) 0 160px, transparent 161px),
     radial-gradient(circle at 85% 18%, rgba(122,92,255,.22) 0 180px, transparent 181px),
+    radial-gradient(circle at 25% 80%, rgba(0,194,255,.16) 0 220px, transparent 221px),
     linear-gradient(180deg,var(--bg1),var(--bg2));
 }
 
-/* ===== Top ===== */
 .topbar{
   position:sticky;
   top:0;
@@ -40,34 +41,65 @@ body{
   gap:10px;
   justify-content:space-between;
   align-items:center;
-  background:rgba(255,255,255,.8);
-  backdrop-filter:blur(8px);
+  flex-wrap: wrap;
+  background:rgba(255,255,255,.86);
+  backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);
 }
 
-.brand{
-  font-weight:900;
-}
+.brand{ font-weight:900; }
 .brand::before{ content:"⚡ "; }
 
 .selectors{
   display:flex;
   gap:8px;
   flex-wrap:wrap;
+  align-items:center;
 }
 
 label{
   font-size:12px;
   color:var(--muted);
+  display:flex;
+  gap:6px;
+  align-items:center;
 }
 
 select{
-  padding:6px 8px;
-  border-radius:10px;
+  padding:7px 10px;
+  border-radius:12px;
   border:1px solid var(--line);
+  background:white;
 }
 
-/* ===== Layout ===== */
+/* ===== Streak badge ===== */
+.streakBadge{
+  margin-left:8px;
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:900;
+  font-size:12px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:1px solid rgba(20,30,60,.12);
+  background: rgba(255,255,255,.85);
+  box-shadow: 0 10px 18px rgba(22,34,66,.10);
+}
+.streakBadge.hit{  outline: 2px solid rgba(0,194,255,.18); }
+.streakBadge.shine{ outline: 2px solid rgba(122,92,255,.18); }
+.streakBadge.spark{ outline: 2px solid rgba(255,79,163,.18); }
+.streakBadge.hot{ outline: 2px solid rgba(255,59,92,.18); }
+
+.streakBadge.pop{
+  animation: badgePop .35s ease-out;
+}
+@keyframes badgePop{
+  0%{ transform: scale(1); }
+  55%{ transform: scale(1.06); }
+  100%{ transform: scale(1); }
+}
+
 .container{
   max-width:1000px;
   margin:12px auto;
@@ -90,12 +122,16 @@ select{
   display:flex;
   flex-direction:column;
   gap:8px;
+  position: relative; /* 紙吹雪の基準 */
+  overflow: hidden;   /* 紙吹雪をカード内に */
 }
 
-/* ===== Question ===== */
 .row{
   display:flex;
   justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
   font-size:13px;
   color:var(--muted);
 }
@@ -123,7 +159,7 @@ select{
   background:rgba(255,255,255,.6);
 }
 
-/* ===== Choices（ここが本題） ===== */
+/* ===== Choices：横並び（ここが本題） ===== */
 .choices{
   flex:1 1 auto;
   overflow:auto;
@@ -131,33 +167,36 @@ select{
   display:grid;
   grid-template-columns: repeat(2, 1fr); /* ★スマホは2列 */
   gap:8px;
+  padding-right:2px;
 }
 
-/* 選択肢1つの高さを圧縮 */
+/* コンパクトに */
 .choice{
   display:flex;
   gap:8px;
   align-items:center;
 
-  padding:8px 10px; /* ★縦を小さく */
+  padding:8px 10px;
   border-radius:14px;
   border:1px solid var(--line);
   background:white;
   cursor:pointer;
 
-  transition:.1s;
+  transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+  box-shadow: 0 10px 18px rgba(22,34,66,.08);
 }
 
 .choice:hover{
-  border-color:rgba(122,92,255,.4);
+  transform: translateY(-1px);
+  border-color: rgba(122,92,255,.35);
+  box-shadow: 0 14px 24px rgba(22,34,66,.12);
 }
 
 .choice.selected{
-  border-color:var(--pink);
-  outline:2px solid rgba(255,79,163,.25);
+  border-color: rgba(255,79,163,.70);
+  outline:2px solid rgba(255,79,163,.20);
 }
 
-/* 番号バッジもコンパクトに */
 .choice .idx{
   width:26px;
   height:26px;
@@ -187,7 +226,7 @@ select{
   position:sticky;
   bottom:0;
   padding-top:8px;
-  background:rgba(255,255,255,.85);
+  background:rgba(255,255,255,.92);
   border-top:1px solid var(--line);
 }
 
@@ -199,11 +238,12 @@ button{
   cursor:pointer;
   background:linear-gradient(135deg,var(--cyan),var(--purple));
   color:white;
+  box-shadow: 0 12px 22px rgba(0,194,255,.18);
+  transition: transform .08s ease, filter .12s ease;
 }
-
-button:disabled{
-  opacity:.5;
-}
+button:hover{ transform: translateY(-1px); }
+button:active{ transform: translateY(0); filter: brightness(.98); }
+button:disabled{ opacity:.55; cursor:not-allowed; box-shadow:none; transform:none; }
 
 button.ghost{
   background:white;
@@ -221,31 +261,23 @@ button.danger{
   padding:8px 10px;
   border-radius:12px;
   font-weight:900;
+  background: rgba(255,255,255,.6);
+  border: 1px solid var(--line);
 }
 
 .result.ok{
   background:rgba(20,199,123,.15);
   color:#0b6b43;
+  border-color: rgba(20,199,123,.25);
 }
 
 .result.ng{
   background:rgba(255,59,92,.15);
   color:#9b1c30;
+  border-color: rgba(255,59,92,.25);
 }
 
-/* ===== PCでは3列 ===== */
-@media (min-width: 900px){
-  .question-area{
-    grid-template-columns:1.2fr .8fr;
-  }
-  .choices{
-    grid-template-columns: repeat(3, 1fr); /* ★PCは3列 */
-  }
-  #qimg{ max-height:42vh; }
-}
-/* ===== Correct / Wrong animations ===== */
-
-/* 正解：光ってポン！ */
+/* ===== 正解/不正解アニメ（choice） ===== */
 .choice.correct{
   border-color: rgba(20,199,123,.9) !important;
   outline: 2px solid rgba(20,199,123,.22);
@@ -258,7 +290,6 @@ button.danger{
   100%{ transform: scale(1); filter: brightness(1); }
 }
 
-/* 不正解：赤くなってプルプル */
 .choice.wrong{
   border-color: rgba(255,59,92,.95) !important;
   outline: 2px solid rgba(255,59,92,.20);
@@ -274,7 +305,7 @@ button.danger{
   100%{ transform: translateX(0); }
 }
 
-/* 画面全体（カード）演出：正解ならキラッ */
+/* ===== カード演出（正解/不正解） ===== */
 #quizCard.celebrate{
   animation: cardGlow .55s ease-out;
 }
@@ -284,7 +315,6 @@ button.danger{
   100%{ box-shadow: var(--shadow); }
 }
 
-/* 画面全体（カード）演出：不正解なら軽く揺れる */
 #quizCard.shake{
   animation: cardShake .35s ease-in-out;
 }
@@ -297,9 +327,70 @@ button.danger{
   100%{ transform: translateX(0); }
 }
 
+/* ===== CSSだけ紙吹雪（celebrate時） =====
+   2枚の疑似要素を使って、カラフルな小片が上から落ちるように見せる
+*/
+#quizCard.celebrate::before,
+#quizCard.celebrate::after{
+  content:"";
+  position:absolute;
+  left:-10%;
+  top:-30%;
+  width:120%;
+  height:120%;
+  pointer-events:none;
+  background-repeat: repeat;
+  opacity: .85;
+  mix-blend-mode: multiply;
+  animation: confettiFall .65s ease-out forwards;
+}
+
+#quizCard.celebrate::before{
+  background-image:
+    radial-gradient(circle, rgba(255,79,163,.95) 0 2px, transparent 3px),
+    radial-gradient(circle, rgba(122,92,255,.95) 0 2px, transparent 3px),
+    radial-gradient(circle, rgba(0,194,255,.95) 0 2px, transparent 3px),
+    radial-gradient(circle, rgba(20,199,123,.95) 0 2px, transparent 3px),
+    radial-gradient(circle, rgba(255,159,67,.95) 0 2px, transparent 3px);
+  background-size: 28px 28px, 30px 30px, 34px 34px, 32px 32px, 36px 36px;
+  transform: translateY(-10px) rotate(-6deg);
+}
+
+#quizCard.celebrate::after{
+  opacity: .55;
+  filter: blur(.2px);
+  background-image:
+    linear-gradient(135deg, rgba(255,79,163,.9) 0 3px, transparent 4px),
+    linear-gradient(135deg, rgba(122,92,255,.9) 0 3px, transparent 4px),
+    linear-gradient(135deg, rgba(0,194,255,.9) 0 3px, transparent 4px),
+    linear-gradient(135deg, rgba(20,199,123,.9) 0 3px, transparent 4px);
+  background-size: 22px 22px, 26px 26px, 24px 24px, 28px 28px;
+  transform: translateY(-12px) rotate(8deg);
+}
+
+@keyframes confettiFall{
+  0%{ transform: translateY(-30px) rotate(0deg); opacity:0; }
+  15%{ opacity:.9; }
+  100%{ transform: translateY(220px) rotate(10deg); opacity:0; }
+}
+
 /* 動きが苦手な人のため（OS設定に従う） */
 @media (prefers-reduced-motion: reduce){
-  .choice.correct, .choice.wrong, #quizCard.celebrate, #quizCard.shake{
+  .choice.correct, .choice.wrong, #quizCard.celebrate, #quizCard.shake,
+  #quizCard.celebrate::before, #quizCard.celebrate::after,
+  .streakBadge.pop{
     animation: none !important;
+  }
+}
+
+/* ===== PCでは3列 ===== */
+@media (min-width: 900px){
+  .question-area{
+    grid-template-columns:1.2fr .8fr;
+    align-items:start;
+  }
+  #qimg{ max-height:42vh; }
+  .choices{
+    grid-template-columns: repeat(3, 1fr); /* ★PCは3列 */
   }
 }
