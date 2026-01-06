@@ -65,7 +65,6 @@ function weaknessScore(stat) {
 function buildSessionOrder(questions, stats, mode) {
   if (!questions.length) return [];
 
-  // ① 問番号順
   if (mode === "order") {
     return questions
       .slice()
@@ -73,19 +72,16 @@ function buildSessionOrder(questions, stats, mode) {
       .map(q => q.id);
   }
 
-  // ② ランダム
   if (mode === "random") {
     return shuffle(questions).map(q => q.id);
   }
 
-  // ③ 間違いだけ
   if (mode === "wrong") {
     return questions
       .filter(q => (stats[q.id]?.wrong || 0) > 0)
       .map(q => q.id);
   }
 
-  // ④ 苦手優先
   if (mode === "weak") {
     return questions
       .slice()
@@ -113,7 +109,7 @@ let state = {
   order: [],
   index: 0,
 
-  mode: "order", // ★デフォルトは順番
+  mode: "order",
   shuffledChoices: [],
   selectedChoiceId: null,
   checked: false,
@@ -151,15 +147,28 @@ function currentQuestion() {
   return state.questions.find(q => q.id === qid);
 }
 
+function clearChoiceEffects() {
+  document.querySelectorAll(".choice").forEach(el => {
+    el.classList.remove("selected", "correct", "wrong");
+  });
+  const card = $("#quizCard");
+  if (card) {
+    card.classList.remove("celebrate", "shake");
+    // 再トリガーできるように強制リフロー
+    void card.offsetWidth;
+  }
+}
+
 function startSession() {
   const stats = loadStats();
-
   state.order = buildSessionOrder(state.questions, stats, state.mode);
   state.index = 0;
 
   if (!state.order.length) {
     $("#meta").textContent = "出題できる問題がありません。";
     $("#choices").innerHTML = "";
+    $("#result").textContent = "";
+    $("#progress").textContent = "";
     return;
   }
   showQuestion();
@@ -168,6 +177,8 @@ function startSession() {
 function showQuestion() {
   const q = currentQuestion();
   if (!q) return;
+
+  clearChoiceEffects();
 
   $("#meta").textContent = `問${q.no}`;
   $("#progress").textContent = `${state.index + 1} / ${state.order.length}`;
@@ -192,6 +203,7 @@ function renderChoices() {
   state.shuffledChoices.forEach((c, i) => {
     const div = document.createElement("div");
     div.className = "choice";
+    div.dataset.cid = c.id;
     div.innerHTML = `
       <div class="idx">${i + 1}</div>
       <div class="body">${c.text || ""}</div>
@@ -200,36 +212,72 @@ function renderChoices() {
       if (state.checked) return;
       state.selectedChoiceId = c.id;
       $("#checkBtn").disabled = false;
-      wrap.querySelectorAll(".choice").forEach(el =>
-        el.classList.toggle("selected", el === div)
-      );
+
+      wrap.querySelectorAll(".choice").forEach(el => {
+        el.classList.toggle("selected", el === div);
+      });
     };
     wrap.appendChild(div);
   });
 }
 
+function applyAnswerEffects(q, ok) {
+  const selectedId = state.selectedChoiceId;
+  const correctId = q.answer;
+
+  const selectedEl = document.querySelector(`.choice[data-cid="${selectedId}"]`);
+  const correctEl = document.querySelector(`.choice[data-cid="${correctId}"]`);
+  const card = $("#quizCard");
+
+  // いったんクラスを落として再付与（連続で同じ演出が出るように）
+  document.querySelectorAll(".choice").forEach(el => {
+    el.classList.remove("correct", "wrong");
+  });
+  if (card) {
+    card.classList.remove("celebrate", "shake");
+    void card.offsetWidth; // reflow
+  }
+
+  if (ok) {
+    if (selectedEl) selectedEl.classList.add("correct");
+    if (card) card.classList.add("celebrate");
+  } else {
+    if (selectedEl) selectedEl.classList.add("wrong");
+    if (correctEl) correctEl.classList.add("correct");
+    if (card) card.classList.add("shake");
+  }
+}
+
 function checkAnswer() {
   const q = currentQuestion();
-  if (!q || !state.selectedChoiceId) return;
+  if (!q || !state.selectedChoiceId || state.checked) return;
 
   const stats = loadStats();
   const st = getStat(stats, q.id);
   st.seen++;
+  st.last = new Date().toISOString();
 
   const ok = state.selectedChoiceId === q.answer;
   if (ok) {
     st.correct++;
     st.streak++;
-    $("#result").textContent = "✅ 正解";
+    $("#result").textContent = "✅ 正解！";
   } else {
     st.wrong++;
     st.streak = 0;
-    $("#result").textContent = `❌ 不正解（正解: ${q.answer}）`;
+
+    // 正解が何番か（シャッフル後の表示番号）
+    const idx = state.shuffledChoices.findIndex(c => c.id === q.answer);
+    const no = idx >= 0 ? (idx + 1) : "?";
+    $("#result").textContent = `❌ 不正解…（正解：${no}番）`;
   }
   saveStats(stats);
 
   state.checked = true;
+  $("#checkBtn").disabled = true;
   $("#nextBtn").disabled = false;
+
+  applyAnswerEffects(q, ok);
 }
 
 function nextQuestion() {
